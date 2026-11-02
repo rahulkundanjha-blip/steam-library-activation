@@ -1,0 +1,284 @@
+{
+  "checks": {
+    "rows": 200000,
+    "users": 12393,
+    "games": 5155,
+    "duplicate_rows_removed": 719,
+    "user_titles": 128804,
+    "play_rows_without_purchase": 0
+  },
+  "activation": {
+    "never_played_share": 0.4528353156734263,
+    "ci_low": 0.4390455227607546,
+    "ci_high": 0.4665347700536806,
+    "priority": true,
+    "median_library": 2.0,
+    "users_with_all_played": 0.5196481884935044,
+    "users_with_no_play": 0.084160413136448
+  },
+  "adjusted": {
+    "titles_nobody_played": 1555,
+    "user_titles_removed_nobody_played": 11309,
+    "never_played_without_those": 0.4001702200093621,
+    "likely_addons": 1612,
+    "user_titles_removed": 15193,
+    "share_of_user_titles_removed": 0.11795441135368467,
+    "never_played_share": 0.38165318499088996,
+    "ci_low": 0.3675168678094684,
+    "ci_high": 0.39542641407292145,
+    "titles_almost_always_played": 28,
+    "never_played_also_without_those": 0.4168678174736741
+  },
+  "one_title_players": {
+    "users": 5700,
+    "dota_2": 0.5014035087719299,
+    "team_fortress_2": 0.10210526315789474
+  },
+  "segments": {
+    "2_to_20": {
+      "users": 5455,
+      "share_of_users": 0.4412359459678072,
+      "share_of_titles": 0.27284329862425294,
+      "share_of_unplayed": 0.27850553505535053,
+      "never_played": 0.38957352087231434,
+      "median_unplayed_per_user": 1.0
+    },
+    "21_plus": {
+      "users": 1106,
+      "share_of_users": 0.08946048693682764,
+      "share_of_titles": 0.6760877027752594,
+      "share_of_unplayed": 0.7083487084870849,
+      "never_played": 0.3998646027261721,
+      "median_unplayed_per_user": 14.0
+    }
+  },
+  "by_library": [
+    {
+      "library": "1",
+      "users": 5700,
+      "titles": 5700,
+      "share_of_titles": 0.044253284059501255,
+      "never_played": 0.10052631578947369,
+      "median_hours": 2.7,
+      "never_played_adjusted": 0.09592664433080589
+    },
+    {
+      "library": "2\u20135",
+      "users": 3339,
+      "titles": 9980,
+      "share_of_titles": 0.07748206577435483,
+      "never_played": 0.4036072144288577,
+      "median_hours": 16.3,
+      "never_played_adjusted": 0.37819438625890234
+    },
+    {
+      "library": "6\u201320",
+      "users": 2146,
+      "titles": 21943,
+      "share_of_titles": 0.1703596161609888,
+      "never_played": 0.4590074283370551,
+      "median_hours": 109.65,
+      "never_played_adjusted": 0.40094315704071803
+    },
+    {
+      "library": "21\u2013100",
+      "users": 963,
+      "titles": 41442,
+      "share_of_titles": 0.3217446663147107,
+      "never_played": 0.4067853868056561,
+      "median_hours": 729.0,
+      "never_played_adjusted": 0.330235863237585
+    },
+    {
+      "library": "100+",
+      "users": 245,
+      "titles": 49739,
+      "share_of_titles": 0.3861603676904444,
+      "never_played": 0.5387321819899877,
+      "median_hours": 1860.5,
+      "never_played_adjusted": 0.45660852621073145
+    }
+  ],
+  "library_rho": {
+    "spearman_rho": -0.5950966630961781,
+    "p_value": 0.0
+  },
+  "big_libraries": {
+    "users": 1106,
+    "share_of_users": 0.08946048693682764,
+    "share_of_never_played": 0.7083487084870849
+  },
+  "concentration": {
+    "players_with_hours": 11350,
+    "gini_players": 0.8320817909783994,
+    "top_10pct_players_share": 0.707156523611852,
+    "top_1pct_players_share": 0.1881902427216309,
+    "priority": true,
+    "top_1pct_games_share": 0.7345044300340224,
+    "top_game": "Dota 2",
+    "top_game_share": 0.28493062815752035,
+    "top_10pct_players_share_without_almost_always_played": 0.6527417303747745,
+    "three_biggest_online_games_share": 0.4290220778987075
+  },
+  "playtime": {
+    "titles_played": 70477,
+    "median_hours": {
+      "n": 70477,
+      "value": 4.5,
+      "ci_low": 4.4,
+      "ci_high": 4.6
+    },
+    "under_2_hours": 0.35394525873689286
+  },
+  "games": {
+    "games_with_enough_buyers": 107,
+    "highest_never_played": [
+      {
+        "game": "Fallout New Vegas Dead Money",
+        "buyers": 202,
+        "x": 202,
+        "rate": 1.0,
+        "ci_low": 0.981337778877479,
+        "ci_high": 1.0000000000000002,
+        "median_hours": NaN
+      },
+      {
+        "game": "Fallout New Vegas Honest Hearts",
+        "buyers": 202,
+        "x": 202,
+        "rate": 1.0,
+        "ci_low": 0.981337778877479,
+        "ci_high": 1.0000000000000002,
+        "median_hours": NaN
+      },
+      {
+        "game": "Sid Meier's Civilization V Brave New World",
+        "buyers": 241,
+        "x": 241,
+        "rate": 1.0,
+        "ci_low": 0.9843104234095119,
+        "ci_high": 1.0,
+        "median_hours": NaN
+      },
+      {
+        "game": "Skyrim High Resolution Texture Pack",
+        "buyers": 235,
+        "x": 235,
+        "rate": 1.0,
+        "ci_low": 0.983916281370656,
+        "ci_high": 1.0000000000000002,
+        "median_hours": NaN
+      },
+      {
+        "game": "The Elder Scrolls V Skyrim - Dawnguard",
+        "buyers": 378,
+        "x": 378,
+        "rate": 1.0,
+        "ci_low": 0.9899396497369397,
+        "ci_high": 1.0,
+        "median_hours": NaN
+      },
+      {
+        "game": "The Elder Scrolls V Skyrim - Dragonborn",
+        "buyers": 365,
+        "x": 365,
+        "rate": 1.0,
+        "ci_low": 0.9895850677063891,
+        "ci_high": 0.9999999999999998,
+        "median_hours": NaN
+      },
+      {
+        "game": "The Elder Scrolls V Skyrim - Hearthfire",
+        "buyers": 367,
+        "x": 367,
+        "rate": 1.0,
+        "ci_low": 0.9896412368970012,
+        "ci_high": 1.0000000000000002,
+        "median_hours": NaN
+      },
+      {
+        "game": "Ricochet",
+        "buyers": 524,
+        "x": 503,
+        "rate": 0.9599236641221374,
+        "ci_low": 0.9395125685537351,
+        "ci_high": 0.9736404093818873,
+        "median_hours": 0.3
+      }
+    ],
+    "lowest_never_played": [
+      {
+        "game": "The Elder Scrolls V Skyrim",
+        "buyers": 717,
+        "x": 40,
+        "rate": 0.05578800557880056,
+        "ci_low": 0.04123428607307726,
+        "ci_high": 0.07507625322062517,
+        "median_hours": 47.0
+      },
+      {
+        "game": "Rust",
+        "buyers": 214,
+        "x": 7,
+        "rate": 0.03271028037383177,
+        "ci_low": 0.015933489786731998,
+        "ci_high": 0.06596762727923236,
+        "median_hours": 37.0
+      },
+      {
+        "game": "Counter-Strike Global Offensive",
+        "buyers": 1412,
+        "x": 35,
+        "rate": 0.024787535410764873,
+        "ci_low": 0.017876340535947687,
+        "ci_high": 0.03427742170957899,
+        "median_hours": 61.0
+      },
+      {
+        "game": "Grand Theft Auto V",
+        "buyers": 273,
+        "x": 4,
+        "rate": 0.014652014652014652,
+        "ci_low": 0.005712246187196249,
+        "ci_high": 0.0370611840321686,
+        "median_hours": 49.0
+      },
+      {
+        "game": "DayZ",
+        "buyers": 249,
+        "x": 3,
+        "rate": 0.012048192771084338,
+        "ci_low": 0.004105776208745478,
+        "ci_high": 0.034817661690231864,
+        "median_hours": 18.0
+      },
+      {
+        "game": "Alien Swarm",
+        "buyers": 289,
+        "x": 0,
+        "rate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.013117878992148575,
+        "median_hours": 2.2
+      },
+      {
+        "game": "Dota 2",
+        "buyers": 4841,
+        "x": 0,
+        "rate": 0.0,
+        "ci_low": 5.421010862427522e-20,
+        "ci_high": 0.0007928967032967045,
+        "median_hours": 5.5
+      },
+      {
+        "game": "Team Fortress 2",
+        "buyers": 2323,
+        "x": 0,
+        "rate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0016509327724636125,
+        "median_hours": 4.4
+      }
+    ]
+  }
+}
